@@ -15,7 +15,7 @@ class App extends React.Component {
           <div className="top-inner">
             <h1>Say Hello to ReactJs</h1>
             <p>You will learn how to use the most popularrontend library, and become a super Ninja developer.</p>
-            <a>Awesome!</a>
+            <button>Awesome!</button>
           </div>
           </div>
         <div className="list-container">

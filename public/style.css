@@ -1,27 +1,44 @@
 body {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .top-container {
-  background-color: rgb(123, 123, 129);
+  background-color: rgb(47, 47, 71);
   background-image: url(/images/react-logo.svg);
   background-repeat: repeat-y;
-  background: right;
+  background-position: right;
+}
 
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 20% 0 20%;
+}
+
+.top-inner {
+  margin: 0;
+  padding: 4% 20% 10%;
+  color: #fff;
+  width: 260px;
 }
 
 .list-inner {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 20%;
 }
 
 .list-inner li {
-  margin: 0 40px;
+  /* margin: 0 40px; */
   width: 50%;
 }
+
 .list-inner p {
   white-space: normal;
+}
+
+h1 {
+  font-size: 50px;
 }
