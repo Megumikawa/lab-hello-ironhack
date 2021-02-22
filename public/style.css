@@ -1,0 +1,27 @@
+body {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: rgb(123, 123, 129);
+  background-image: url(/images/react-logo.svg);
+  background-repeat: repeat-y;
+  background: right;
+
+}
+
+.list-inner {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.list-inner li {
+  margin: 0 40px;
+  width: 50%;
+}
+.list-inner p {
+  white-space: normal;
+}
